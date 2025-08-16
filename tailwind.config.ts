@@ -19,18 +19,18 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'heading': ['Montserrat', 'sans-serif'],
-				'body': ['Open Sans', 'sans-serif'],
+				'heading': ['Dela Gothic One', 'cursive'],
+				'body': ['Noto Sans', 'sans-serif'],
 			},
 			colors: {
-				// Family Institute warm colors
-				warm: {
-					orange: '#F4A261',
-					coral: '#E76F51',
-					cream: '#F1FAEE',
-					sage: '#A8DADC',
-					teal: '#457B9D',
-					yellow: '#E7C046',
+				// Dobry Campus brand colors
+				brand: {
+					primary: '#FFAE64',
+					button: '#E5501C',
+					accent1: '#92ABFF',
+					accent2: '#D092FF',
+					accent3: '#889BE8',
+					accent4: '#EDB356',
 				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
